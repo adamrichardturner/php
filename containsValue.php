@@ -11,8 +11,8 @@ function solution($a, $x) {
     return in_array($x, $a) ? true : false;
 }
 
-echo solution(array('a', 'b', 'c', 'd', 'e', "f"), "a");
-echo solution(array('a', 'b', 'c', 'd', 'e', "f"), "f");
-echo solution(array('a', 'b', 'c', 'd', 'e', "f"), "y");
+echo solution(array('a', 'b', 'c', 'd', 'e', "f"), "a"); // true
+echo solution(array('a', 'b', 'c', 'd', 'e', "f"), "f"); // true
+echo solution(array('a', 'b', 'c', 'd', 'e', "f"), "y"); // false
 
 ?>
