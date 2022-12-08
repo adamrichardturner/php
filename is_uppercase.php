@@ -6,10 +6,14 @@ function is_uppercase($str) {
         return false;
   } else if (strlen($str) <= 0) {
     return true;
+  } else if (!$str) {
+        echo $str;
+    return true;
   } else {
-    ctype_upper(str_replace(' ', '', $str)) ? true : false;
+    return ctype_upper(str_replace(' ', '', $str)) ? true : false;
   }
 }
 
 print_r(is_uppercase(null));
 print_r(is_uppercase('HELLO I AM DONALD'));
+print_r(is_uppercase(false));
