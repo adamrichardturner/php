@@ -23,6 +23,6 @@ function isIsogram($string) {
     return true;
 }
 
-print_r(isIsogram("moOse")); // true
-//print_r(isIsogram("isIsogram")); // false
-//print_r(isIsogram("pajwlUiGv"));
+print_r(isIsogram("moOse")); // false
+print_r(isIsogram("isIsogram")); // false
+print_r(isIsogram("hat")); // true
