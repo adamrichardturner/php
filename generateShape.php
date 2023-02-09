@@ -13,7 +13,7 @@ function generateShape($int) {
     for ($i = 1; $i <= pow($int, 2); $i++) {
         if($i % $int == 0 && $i != pow($int, 2)) {
         // If $i modulo $int == 0 we are at end of the line
-        // so concatenate a + with line-break 
+        // so concatenate a '+' with line-break 
             $shape .= "+\n";
         } else {
             // Else just add the '+'
