@@ -9,5 +9,5 @@ function boolToWord($bool){
     return $bool ? "Yes" : "No";
 }
 
-echo boolToWord(true);
-echo boolToWord(false);
+echo boolToWord(true); // Yes
+echo boolToWord(false); // No
